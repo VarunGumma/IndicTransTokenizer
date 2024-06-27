@@ -101,7 +101,7 @@ print(outputs)
 from IndicTransTokenizer import IndicEvaluator
 
 # this method returns a dictionary with BLEU and ChrF2++ scores with appropriate signatures
-evaluator = IndicEvalutor()
+evaluator = IndicEvaluator()
 scores = evaluator.evaluate(tgt_lang=tgt_lang, preds=pred_file, refs=ref_file) 
 
 # alternatively, you can pass the list of predictions and references instead of files 
